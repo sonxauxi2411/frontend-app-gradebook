@@ -14,6 +14,7 @@ import Head from './head/Head';
 
 const App = () => (
   <AppProvider store={store}>
+    <h1>Funix gradebook</h1>
     <Head />
     <Router>
       <div>
